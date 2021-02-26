@@ -13,7 +13,7 @@ We used Scala and R for our project.
 
 ### Scala
 
-To run the scala files, take the included CSVs and paste them into the scalation_1.6/data/analytics/ folder so they can be accessed directly by the scala files.
+To run the scala files, take the included CSVs and paste them into the scalation_1.6/data/analytics/ folder so they can be accessed directly by the scala files. Use the Concrete_Data.csv instead of the .xls file.
 
 The various scala files should just be copied into the scalation_1.6/scalation_modeling/src/main/scala/scalation/analytics/ folder. 
 
@@ -25,3 +25,5 @@ Then just run sbt from the scalation_modeling directory and run compile. Each sc
 For the R files, we recommend using RStudio since it will make the installation of the packages much simpler. Open the files in RStudio and it should prompt you to download the required packages. 
 
 Once the packages are installed, simply hit CTRL+SHIFT+ENTER to run the whole file or select a portion of the code and click run or hit CTRL+ENTER to run it. This should produce the related plots in the bottom right area of RStudio and you can click the arrows in that screen to switch between the plots. The text related output will be printed in the Console area at the bottom left. 
+
+We divided the R files into datasets as well, so all the code in one file is for the various models used on that datasets.
