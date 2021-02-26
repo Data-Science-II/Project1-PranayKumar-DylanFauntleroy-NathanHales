@@ -1,15 +1,17 @@
 # Roles
 
 Pranay - Helped with Scala and R, Report
+
 Dylan - Headed Scala development, Report
+
 Nathan - Headed R development, Report
 
 
 # Running the Code
 
+We used Scala and R for our project.
 
 ### Scala
-We used scala and R for our project.
 
 To run the scala files, take the included CSVs and paste them into the scalation_1.6/data/analytics/ folder so they can be accessed directly by the scala files.
 
