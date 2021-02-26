@@ -20,7 +20,7 @@ library(leaps)
 library(ggplot2)
 library(readxl)
 ##Stability Dataset
-Stability_Data = read.csv("C:/Users/hales/OneDrive/Documents/Data Science II/Data_for_UCI_named.csv")
+Stability_Data = read.csv("Datasets/Data_for_UCI_named.csv")
 stab = Stability_Data$stab
 tau1 = Stability_Data$tau1
 tau2 = Stability_Data$tau2
